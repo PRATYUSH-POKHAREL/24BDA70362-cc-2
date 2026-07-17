@@ -1,4 +1,23 @@
-1.  Search in Rotated Sorted Array 
+1.2.1 Search Insert Position
+
+class Solution {
+public:
+    int searchInsert(vector<int>& nums, int target) {
+        int l = 0, r = nums.size() - 1;
+        while (l <= r) {
+            int m = (l + r) / 2;
+            if (nums[m] == target) return m;
+            else if (nums[m] < target) l = m + 1;
+            else r = m - 1;
+        }
+        return l;
+    }
+};
+
+--------------------------------------------------------------
+
+1.2.2  Search in Rotated Sorted Array 
+
 class Solution {
 public:
     int search(std::vector<int>& nums, int target) {
