@@ -1,6 +1,6 @@
 # 24BDA70362-cc-2
 
-1.Contains Duplicate II
+1.1.1 Contains Duplicate II
 code:
 class Solution {
 public:
@@ -17,7 +17,7 @@ public:
 
 
 
-2.Product of Array Except Self
+1.1.2 Product of Array Except Self
 code :
 class Solution {
 public:
